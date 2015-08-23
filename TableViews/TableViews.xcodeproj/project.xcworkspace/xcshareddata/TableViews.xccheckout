@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>5DF30B2C-752F-4D00-AF03-E72A8B016C04</string>
+	<string>CB66010B-F956-4C5D-90B5-7A834FBEB2DC</string>
 	<key>IDESourceControlProjectName</key>
-	<string>TableViewButtons</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>E868A32ADD1A3A60D489411C5EC62910D34B1C60</key>
 		<string>https://github.com/mgcesp/iOS-Basics.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>TableViewButtons/TableViewButtons.xcodeproj</string>
+	<string>TableViews/TableViews.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>E868A32ADD1A3A60D489411C5EC62910D34B1C60</key>
