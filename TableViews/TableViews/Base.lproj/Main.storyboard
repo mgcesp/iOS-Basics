@@ -46,6 +46,15 @@
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W1D-Pg-yUG">
+                                            <rect key="frame" x="288" y="24" width="46" height="32"/>
+                                            <state key="normal" title="Add">
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <connections>
+                                                <segue destination="W7k-rG-c3H" kind="show" identifier="addProductAction" id="QIx-3B-yUf"/>
+                                            </connections>
+                                        </button>
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="Szj-Kr-EjY" firstAttribute="leading" secondItem="0Yf-SE-EHT" secondAttribute="trailing" constant="9" id="9fi-9v-qvi"/>
@@ -59,6 +68,7 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="addProductButton" destination="W1D-Pg-yUG" id="DHB-IU-yo2"/>
                                     <outlet property="productAge" destination="Szj-Kr-EjY" id="CGG-Na-5lk"/>
                                     <outlet property="productID" destination="TJd-Vr-GoP" id="Mwo-gv-t1H"/>
                                     <outlet property="productImageView" destination="0Yf-SE-EHT" id="ShW-Xh-vZz"/>
@@ -77,6 +87,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mS4-KX-3h5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1128.5" y="460.5"/>
+        </scene>
+        <!--Group View Controller-->
+        <scene sceneID="am9-Ua-CSr">
+            <objects>
+                <viewController id="W7k-rG-c3H" customClass="GroupViewController" customModule="TableViews" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5ic-P2-pfX"/>
+                        <viewControllerLayoutGuide type="bottom" id="tF2-QO-Dad"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LSy-r7-S2X">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ujF-Ob-L7k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1663.5" y="880.5"/>
         </scene>
         <!--Product Detail View Controller-->
         <scene sceneID="pLo-YM-u74">
@@ -111,7 +140,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AXD-rs-zlG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1653.5" y="460.5"/>
+            <point key="canvasLocation" x="1663.5" y="102.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="qjl-U1-R6y">

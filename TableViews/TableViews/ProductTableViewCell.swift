@@ -16,6 +16,9 @@ class ProductTableViewCell: UITableViewCell {
     @IBOutlet weak var productAge: UILabel!
     @IBOutlet weak var productWeight: UILabel!
     
+    
+    @IBOutlet weak var addProductButton: UIButton!
+    
     func configureCellWith (product: Product) {
         
         productImageView.image = product.image

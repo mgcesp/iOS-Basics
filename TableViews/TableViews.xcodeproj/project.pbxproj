@@ -19,6 +19,7 @@
 		A628347B1B8A000700C67862 /* ProductLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A628347A1B8A000700C67862 /* ProductLine.swift */; };
 		A62834C61B8A141C00C67862 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62834C51B8A141C00C67862 /* ProductTableViewCell.swift */; };
 		A62834C81B8A1D2100C67862 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62834C71B8A1D2100C67862 /* ProductDetailViewController.swift */; };
+		A62834D11B8A354B00C67862 /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62834D01B8A354B00C67862 /* GroupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		A628347A1B8A000700C67862 /* ProductLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductLine.swift; sourceTree = "<group>"; };
 		A62834C51B8A141C00C67862 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
 		A62834C71B8A1D2100C67862 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		A62834D01B8A354B00C67862 /* GroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 				A62834751B89FFA600C67862 /* ProductsTableViewController.swift */,
 				A62834C71B8A1D2100C67862 /* ProductDetailViewController.swift */,
 				A62834C51B8A141C00C67862 /* ProductTableViewCell.swift */,
+				A62834D01B8A354B00C67862 /* GroupViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A62834D11B8A354B00C67862 /* GroupViewController.swift in Sources */,
 				A628341E1B89F3B500C67862 /* ViewController.swift in Sources */,
 				A62834761B89FFA600C67862 /* ProductsTableViewController.swift in Sources */,
 				A62834C61B8A141C00C67862 /* ProductTableViewCell.swift in Sources */,
@@ -449,6 +453,7 @@
 				A62834371B89F3B500C67862 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A62834381B89F3B500C67862 /* Build configuration list for PBXNativeTarget "TableViewsTests" */ = {
 			isa = XCConfigurationList;
@@ -457,6 +462,7 @@
 				A628343A1B89F3B500C67862 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
