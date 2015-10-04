@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="KeyboardTests" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1qa-jv-lHW">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="nUa-la-XnF"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Title" id="ZMr-uT-8Uw"/>
+                                </items>
+                            </navigationBar>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IJx-fx-qKh">
+                                <rect key="frame" x="5" y="275" width="375" height="162"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="162" id="Z4X-e9-Vap"/>
+                                </constraints>
+                            </pickerView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZId-PC-TF6">
+                                <rect key="frame" x="37" y="445" width="300" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="ScC-lU-0Si"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fdF-ro-TNd">
+                                <rect key="frame" x="37" y="503" width="300" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="bea-rM-5PB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2A4-02-nAP">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="SBE-jG-l7P"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem title="Item" id="fHp-07-iTO"/>
+                                </items>
+                            </toolbar>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="4Nm-uh-AMf">
+                                <rect key="frame" x="37" y="82" width="300" height="185"/>
+                                <date key="date" timeIntervalSinceReferenceDate="462086344.19792497">
+                                    <!--2015-08-24 05:19:04 +0000-->
+                                </date>
+                            </datePicker>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fdF-ro-TNd" firstAttribute="leading" secondItem="ZId-PC-TF6" secondAttribute="leading" id="0Np-6c-h2v"/>
+                            <constraint firstItem="fdF-ro-TNd" firstAttribute="top" secondItem="ZId-PC-TF6" secondAttribute="bottom" constant="28" id="7xW-RB-GuM"/>
+                            <constraint firstItem="fdF-ro-TNd" firstAttribute="centerX" secondItem="2A4-02-nAP" secondAttribute="centerX" id="888-53-HSJ"/>
+                            <constraint firstItem="IJx-fx-qKh" firstAttribute="top" secondItem="4Nm-uh-AMf" secondAttribute="bottom" constant="13" id="A9s-29-7wc"/>
+                            <constraint firstItem="IJx-fx-qKh" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-11" id="CsB-Dh-7Ao"/>
+                            <constraint firstItem="1qa-jv-lHW" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="FgO-3p-8js"/>
+                            <constraint firstItem="ZId-PC-TF6" firstAttribute="trailing" secondItem="4Nm-uh-AMf" secondAttribute="trailing" id="HJK-id-O0d"/>
+                            <constraint firstItem="fdF-ro-TNd" firstAttribute="trailing" secondItem="ZId-PC-TF6" secondAttribute="trailing" id="J5F-Wf-mVo"/>
+                            <constraint firstItem="2A4-02-nAP" firstAttribute="bottom" secondItem="2fi-mo-0CV" secondAttribute="top" id="MWR-Cy-AFB"/>
+                            <constraint firstItem="4Nm-uh-AMf" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="21" id="Nma-qO-sRF"/>
+                            <constraint firstItem="4Nm-uh-AMf" firstAttribute="top" secondItem="1qa-jv-lHW" secondAttribute="bottom" constant="18" id="R2i-Ay-N8a"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="IJx-fx-qKh" secondAttribute="trailing" constant="-21" id="hKr-CL-KKb"/>
+                            <constraint firstItem="ZId-PC-TF6" firstAttribute="top" secondItem="IJx-fx-qKh" secondAttribute="bottom" constant="8" symbolic="YES" id="kqS-ls-hjc"/>
+                            <constraint firstItem="2A4-02-nAP" firstAttribute="top" secondItem="fdF-ro-TNd" secondAttribute="bottom" constant="90" id="nkN-3I-k1e"/>
+                            <constraint firstItem="1qa-jv-lHW" firstAttribute="trailing" secondItem="2A4-02-nAP" secondAttribute="trailing" id="nmX-LK-tgc"/>
+                            <constraint firstAttribute="trailing" secondItem="1qa-jv-lHW" secondAttribute="trailing" id="nuM-Kh-E5r"/>
+                            <constraint firstItem="1qa-jv-lHW" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="pZk-xe-wfD"/>
+                            <constraint firstItem="4Nm-uh-AMf" firstAttribute="leading" secondItem="ZId-PC-TF6" secondAttribute="leading" id="yQh-oo-skF"/>
+                            <constraint firstItem="1qa-jv-lHW" firstAttribute="leading" secondItem="2A4-02-nAP" secondAttribute="leading" id="zeu-kO-Inp"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="439.5" y="428.5"/>
+        </scene>
+    </scenes>
+</document>

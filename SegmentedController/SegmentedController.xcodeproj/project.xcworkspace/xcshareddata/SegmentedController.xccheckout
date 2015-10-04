@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>DE2FB134-A8D5-4A7C-9B12-47656CD8C9D9</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>SegmentedController</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>E868A32ADD1A3A60D489411C5EC62910D34B1C60</key>
 		<string>https://github.com/mgcesp/iOS-Basics.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>SegmentedController/SegmentedController.xcodeproj/project.xcworkspace</string>
+	<string>SegmentedController/SegmentedController.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>E868A32ADD1A3A60D489411C5EC62910D34B1C60</key>

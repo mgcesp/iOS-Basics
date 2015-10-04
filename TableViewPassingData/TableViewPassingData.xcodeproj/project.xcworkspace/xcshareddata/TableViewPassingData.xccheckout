@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>D2F6E8AC-1026-489F-95BA-5D133FB282C4</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>TableViewPassingData</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>E868A32ADD1A3A60D489411C5EC62910D34B1C60</key>
 		<string>https://github.com/mgcesp/iOS-Basics.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>TableViewPassingData/TableViewPassingData.xcodeproj/project.xcworkspace</string>
+	<string>TableViewPassingData/TableViewPassingData.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>E868A32ADD1A3A60D489411C5EC62910D34B1C60</key>

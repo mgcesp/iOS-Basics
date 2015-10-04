@@ -10,12 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
     @IBOutlet weak var controller: UISegmentedControl!
     @IBOutlet weak var label: UILabel!
     
+    var currentSegment = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        if currentSegment == 0 {
+            controller.selectedSegmentIndex = 0
+        }
     }
 
     override func didReceiveMemoryWarning() {
