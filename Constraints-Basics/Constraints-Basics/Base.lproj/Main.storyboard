@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9lx-58-0Ne">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="YIv-kc-D3W">
+            <objects>
+                <viewController id="9lx-58-0Ne" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HUF-q1-np8"/>
+                        <viewControllerLayoutGuide type="bottom" id="aLN-ru-flf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="opn-A6-Rfy">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Scooter" translatesAutoresizingMaskIntoConstraints="NO" id="xIZ-KR-EcG">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                            </imageView>
+                            <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QHL-YP-Fz8">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circle_logo" translatesAutoresizingMaskIntoConstraints="NO" id="8Zn-Mb-4Iq">
+                                <rect key="frame" x="263" y="28" width="75" height="75"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="fvD-E1-Agj"/>
+                                    <constraint firstAttribute="height" constant="75" id="oko-Dc-1R6"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZWi-mc-PGA">
+                                <rect key="frame" x="20" y="541" width="560" height="39"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Motivatr" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gXI-ff-FG0">
+                                <rect key="frame" x="234" y="140" width="133" height="48"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xIZ-KR-EcG" firstAttribute="leading" secondItem="opn-A6-Rfy" secondAttribute="leading" id="1io-Pr-V7d"/>
+                            <constraint firstItem="xIZ-KR-EcG" firstAttribute="top" secondItem="opn-A6-Rfy" secondAttribute="top" id="6PF-VH-ha3"/>
+                            <constraint firstItem="gXI-ff-FG0" firstAttribute="centerX" secondItem="opn-A6-Rfy" secondAttribute="centerX" id="8Dz-X6-9s6"/>
+                            <constraint firstItem="aLN-ru-flf" firstAttribute="top" secondItem="xIZ-KR-EcG" secondAttribute="bottom" id="BfZ-bM-mo7"/>
+                            <constraint firstItem="aLN-ru-flf" firstAttribute="top" secondItem="ZWi-mc-PGA" secondAttribute="bottom" constant="20" id="BqH-hB-FLQ"/>
+                            <constraint firstItem="8Zn-Mb-4Iq" firstAttribute="centerX" secondItem="opn-A6-Rfy" secondAttribute="centerX" id="DWv-YT-maf"/>
+                            <constraint firstItem="ZWi-mc-PGA" firstAttribute="leading" secondItem="opn-A6-Rfy" secondAttribute="leadingMargin" id="E18-gk-XjZ"/>
+                            <constraint firstItem="ZWi-mc-PGA" firstAttribute="trailing" secondItem="opn-A6-Rfy" secondAttribute="trailingMargin" id="H7B-FY-g71"/>
+                            <constraint firstAttribute="trailing" secondItem="QHL-YP-Fz8" secondAttribute="trailing" id="NRm-1y-pVi"/>
+                            <constraint firstItem="gXI-ff-FG0" firstAttribute="top" secondItem="8Zn-Mb-4Iq" secondAttribute="bottom" constant="37" id="QgA-xf-KDb"/>
+                            <constraint firstItem="aLN-ru-flf" firstAttribute="top" secondItem="QHL-YP-Fz8" secondAttribute="bottom" id="VJ0-J6-Wje"/>
+                            <constraint firstItem="8Zn-Mb-4Iq" firstAttribute="top" secondItem="HUF-q1-np8" secondAttribute="bottom" constant="8" id="YTt-lg-e5y"/>
+                            <constraint firstItem="QHL-YP-Fz8" firstAttribute="top" secondItem="opn-A6-Rfy" secondAttribute="top" id="c61-p9-iVe"/>
+                            <constraint firstItem="QHL-YP-Fz8" firstAttribute="leading" secondItem="opn-A6-Rfy" secondAttribute="leading" id="mh1-TZ-fMY"/>
+                            <constraint firstAttribute="trailing" secondItem="xIZ-KR-EcG" secondAttribute="trailing" id="qQU-wG-AcM"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hsk-6K-rx2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="763" y="473"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Scooter" width="2509" height="1673"/>
+        <image name="circle_logo" width="120" height="120"/>
+    </resources>
+</document>
