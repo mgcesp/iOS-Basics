@@ -22,9 +22,15 @@ class ViewController: UIViewController {
     @IBOutlet weak var colorLabel: UILabel!
     @IBOutlet weak var image: UIImageView!
     
+    var red: Float = 0
+    var blue: Float = 0
+    var green: Float = 0
+    var alphaPower: CGFloat = 0.7
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        getColors()
     }
 
     override func didReceiveMemoryWarning() {
@@ -33,18 +39,44 @@ class ViewController: UIViewController {
     }
 
     @IBAction func sliderRedAction(sender: AnyObject) {
+        getColors()
     }
     
     @IBAction func sliderBlueAction(sender: AnyObject) {
-        
+        getColors()
     }
     
     @IBAction func sliderGreenAction(sender: AnyObject) {
+        getColors()
+    }
+    
+    func getColors() {
+        red = redSlider.value
+        blue = blueSlider.value
+        green = greenSlider.value
         
+        printLabels()
+        changeLabelColor()
+    }
+    
+    func printLabels() {
+        
+        let fRedColor = String(format: "%0.0f", (red * 255))
+        let fGreenColor = String(format: "%0.0f", (green * 255))
+        let fBlueColor = String(format: "%0.0f", (blue * 255))
+        
+        redLabel.text = "Red: \(fRedColor)"
+        blueLabel.text = "Blue: \(fBlueColor)"
+        greenLabel.text = "Green: \(fGreenColor)"
     }
     
     func changeLabelColor() {
-        colorLabel.backgroundColor = UIColor(red: <#T##CGFloat#>, green: <#T##CGFloat#>, blue: <#T##CGFloat#>, alpha: <#T##CGFloat#>)
+        
+        let colorChange = UIColor(red: CGFloat(red), green: CGFloat(green), blue: CGFloat(blue), alpha: alphaPower)
+        
+        colorLabel.backgroundColor = colorChange
+        
+        self.view.backgroundColor = UIColor(red: CGFloat(red), green: CGFloat(green), blue: CGFloat(blue), alpha: 1.0)
     }
 }
 
