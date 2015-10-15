@@ -20,7 +20,9 @@ class ViewController: UIViewController {
         imageView.image = newImage
     }
     
-
+    func takeSnapshot(view: UIView) -> UIImageView {
+        
+    }
     
     func textToImage(drawText: NSString, inImage: UIImage, atPoint:CGPoint)->UIImage{
         
