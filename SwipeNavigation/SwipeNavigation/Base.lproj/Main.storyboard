@@ -16,15 +16,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sp2-Q1-Xq0">
-                                <rect key="frame" x="0.0" y="64" width="240" height="128"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sp2-Q1-Xq0">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <animations/>
                             </scrollView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Sp2-Q1-Xq0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="UPn-uR-x5I"/>
+                            <constraint firstAttribute="trailing" secondItem="Sp2-Q1-Xq0" secondAttribute="trailing" id="WOY-SE-FI3"/>
+                            <constraint firstItem="Sp2-Q1-Xq0" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="ZmR-Dq-WTt"/>
+                            <constraint firstItem="Sp2-Q1-Xq0" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="zWx-le-ddk"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="scM-Hj-8eg"/>
+                    <connections>
+                        <outlet property="scrollView" destination="Sp2-Q1-Xq0" id="y3h-L0-lOx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

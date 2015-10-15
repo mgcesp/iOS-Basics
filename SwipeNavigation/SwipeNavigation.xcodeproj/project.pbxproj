@@ -13,6 +13,14 @@
 		A6AEDB731BCC8E7200732755 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6AEDB721BCC8E7200732755 /* Assets.xcassets */; };
 		A6AEDB761BCC8E7200732755 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6AEDB741BCC8E7200732755 /* LaunchScreen.storyboard */; };
 		A6AEDB811BCC8E7200732755 /* SwipeNavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AEDB801BCC8E7200732755 /* SwipeNavigationTests.swift */; };
+		A6BF24CA1BCF5B5300214F82 /* ViewController0.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BF24C81BCF5B5300214F82 /* ViewController0.swift */; settings = {ASSET_TAGS = (); }; };
+		A6BF24CB1BCF5B5300214F82 /* ViewController0.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6BF24C91BCF5B5300214F82 /* ViewController0.xib */; settings = {ASSET_TAGS = (); }; };
+		A6BF24CE1BCF5B5C00214F82 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BF24CC1BCF5B5C00214F82 /* ViewController1.swift */; settings = {ASSET_TAGS = (); }; };
+		A6BF24CF1BCF5B5C00214F82 /* ViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6BF24CD1BCF5B5C00214F82 /* ViewController1.xib */; settings = {ASSET_TAGS = (); }; };
+		A6BF24D21BCF5B6600214F82 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BF24D01BCF5B6600214F82 /* ViewController2.swift */; settings = {ASSET_TAGS = (); }; };
+		A6BF24D31BCF5B6600214F82 /* ViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6BF24D11BCF5B6600214F82 /* ViewController2.xib */; settings = {ASSET_TAGS = (); }; };
+		A6BF24D61BCF5B7200214F82 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BF24D41BCF5B7200214F82 /* ViewController3.swift */; settings = {ASSET_TAGS = (); }; };
+		A6BF24D71BCF5B7200214F82 /* ViewController3.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6BF24D51BCF5B7200214F82 /* ViewController3.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,14 @@
 		A6AEDB7C1BCC8E7200732755 /* SwipeNavigationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeNavigationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6AEDB801BCC8E7200732755 /* SwipeNavigationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeNavigationTests.swift; sourceTree = "<group>"; };
 		A6AEDB821BCC8E7200732755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6BF24C81BCF5B5300214F82 /* ViewController0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController0.swift; sourceTree = "<group>"; };
+		A6BF24C91BCF5B5300214F82 /* ViewController0.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController0.xib; sourceTree = "<group>"; };
+		A6BF24CC1BCF5B5C00214F82 /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		A6BF24CD1BCF5B5C00214F82 /* ViewController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController1.xib; sourceTree = "<group>"; };
+		A6BF24D01BCF5B6600214F82 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		A6BF24D11BCF5B6600214F82 /* ViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController2.xib; sourceTree = "<group>"; };
+		A6BF24D41BCF5B7200214F82 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		A6BF24D51BCF5B7200214F82 /* ViewController3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController3.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +95,14 @@
 			children = (
 				A6AEDB6B1BCC8E7100732755 /* AppDelegate.swift */,
 				A6AEDB6D1BCC8E7100732755 /* ViewController.swift */,
+				A6BF24C81BCF5B5300214F82 /* ViewController0.swift */,
+				A6BF24C91BCF5B5300214F82 /* ViewController0.xib */,
+				A6BF24CC1BCF5B5C00214F82 /* ViewController1.swift */,
+				A6BF24CD1BCF5B5C00214F82 /* ViewController1.xib */,
+				A6BF24D01BCF5B6600214F82 /* ViewController2.swift */,
+				A6BF24D11BCF5B6600214F82 /* ViewController2.xib */,
+				A6BF24D41BCF5B7200214F82 /* ViewController3.swift */,
+				A6BF24D51BCF5B7200214F82 /* ViewController3.xib */,
 				A6AEDB6F1BCC8E7100732755 /* Main.storyboard */,
 				A6AEDB721BCC8E7200732755 /* Assets.xcassets */,
 				A6AEDB741BCC8E7200732755 /* LaunchScreen.storyboard */,
@@ -177,8 +201,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6AEDB761BCC8E7200732755 /* LaunchScreen.storyboard in Resources */,
+				A6BF24CF1BCF5B5C00214F82 /* ViewController1.xib in Resources */,
 				A6AEDB731BCC8E7200732755 /* Assets.xcassets in Resources */,
+				A6BF24D31BCF5B6600214F82 /* ViewController2.xib in Resources */,
 				A6AEDB711BCC8E7100732755 /* Main.storyboard in Resources */,
+				A6BF24D71BCF5B7200214F82 /* ViewController3.xib in Resources */,
+				A6BF24CB1BCF5B5300214F82 /* ViewController0.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +224,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6BF24D21BCF5B6600214F82 /* ViewController2.swift in Sources */,
+				A6BF24CE1BCF5B5C00214F82 /* ViewController1.swift in Sources */,
+				A6BF24D61BCF5B7200214F82 /* ViewController3.swift in Sources */,
+				A6BF24CA1BCF5B5300214F82 /* ViewController0.swift in Sources */,
 				A6AEDB6E1BCC8E7100732755 /* ViewController.swift in Sources */,
 				A6AEDB6C1BCC8E7100732755 /* AppDelegate.swift in Sources */,
 			);
@@ -385,6 +417,7 @@
 				A6AEDB871BCC8E7200732755 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6AEDB881BCC8E7200732755 /* Build configuration list for PBXNativeTarget "SwipeNavigationTests" */ = {
 			isa = XCConfigurationList;
@@ -393,6 +426,7 @@
 				A6AEDB8A1BCC8E7200732755 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
